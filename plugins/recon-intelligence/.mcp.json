@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "recon-intelligence": {
+      "url": "https://azflsjxeulyiyrysavsf.supabase.co/functions/v1/recon-mcp",
+      "headers": {
+        "Authorization": "Bearer ${RECON_API_KEY}",
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}

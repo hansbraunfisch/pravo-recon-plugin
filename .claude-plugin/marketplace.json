@@ -1,0 +1,45 @@
+{
+  "name": "pravo-recon",
+  "owner": {
+    "name": "Pravo Ventures",
+    "email": "hans@pravoventures.com"
+  },
+  "metadata": {
+    "description": "Ukraine-focused intelligence tools for policy, defense, investment, and media analysis — powered by the RECON Intelligence Engine",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "recon-intelligence",
+      "source": "./plugins/recon-intelligence",
+      "description": "Query RECON for real-time intelligence on Ukraine — military operations, defense technology, policy analysis, investment landscape, and media narratives. Powered by 20+ OSINT sources, satellite imagery analysis, and AI synthesis.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Pravo Ventures",
+        "email": "hans@pravoventures.com"
+      },
+      "homepage": "https://recon.pravoventures.com",
+      "repository": "https://github.com/Pravo-Ventures/pravo-recon-plugin",
+      "license": "MIT",
+      "keywords": [
+        "ukraine",
+        "intelligence",
+        "defense",
+        "geopolitics",
+        "osint",
+        "military",
+        "policy",
+        "investment",
+        "recon"
+      ],
+      "category": "intelligence",
+      "tags": [
+        "ukraine",
+        "defense-tech",
+        "geopolitical-risk",
+        "osint",
+        "military-intelligence"
+      ]
+    }
+  ]
+}
